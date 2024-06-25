@@ -1,0 +1,3 @@
+## INTRODUCTION
+This program was the first program that I wrote on my own. I wrote this after learning Java in the course "Introduction to Computer Science". This program runs in the console and simply looks at a user given number to match with a random generated number. It features a hint system which will tell you if your guess was lower than or higher than the target.
+Although this is the first project I wrote on my own, I made some recent changes to it so I could put it on github. There were a lot of issues regarding the style and flow.
