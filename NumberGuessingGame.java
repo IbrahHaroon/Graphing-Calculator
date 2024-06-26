@@ -25,17 +25,20 @@ public class NumberGuessingGame {
                 // If the guess is too high or two low, print a statement for it
                 if(userGuess > target){
                     System.out.println("Your guess is higher than the target. Try again.");
+                    System.out.println("Enter your next guess: ");
+                    userGuess = scan.nextInt();
                 }else{
                     System.out.println("Your guess is lower than the target. Try again.");
+                    System.out.println("Enter your next guess: ");
+                    userGuess = scan.nextInt();
                 }
             }
             // Let the user guess again
-            System.out.println("Enter your next guess: ");
+            winCount++;
+            System.out.println("Congratulations, you won! Here is your win count: " + winCount);
             userGuess = scan.nextInt();
         }
         //Update a win count and congratulate the player
-        winCount++;
-        System.out.println("Congratulations, you won! Here is your win count: " + winCount);
 
         //Ask for another try
         System.out.println("Do you want to play again? (yes/no)");
